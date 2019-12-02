@@ -95,7 +95,7 @@
 							<h1>{{ $banner->nama1 }} &amp; {{ $banner->nama2 }}</h1>
 							<h2>{{ $banner->title }}</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<p><a href="#acara" class="btn btn-default btn-sm">Save the date</a></p>
 						</div>
 					</div>
 				</div>
@@ -154,7 +154,7 @@
 				$akad = \DB::table('acara_akad')->first();
 				$resepsi = \DB::table('acara_resepsi')->first();
 			?>
-			<div class="row">
+			<div class="row" id="acara">
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-1">
